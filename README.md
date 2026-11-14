@@ -87,11 +87,11 @@ Each task folder contains its own source code, a dedicated `README.md`, and supp
 
 ## 🧠 Key Learnings Across All 3 Tasks
 
-- 📐 **Accuracy alone is not enough** — metrics like Precision, Recall, F1, and ROC-AUC give a fuller picture, especially on imbalanced data.
-- ⚖️ **Class imbalance handling** (SMOTE, stratification, class weighting) is critical for reliable fraud/quality classifiers.
-- 🔎 **EDA first, modeling second** — understanding data distributions and relationships before modeling leads to better feature choices.
-- 🤝 **Model comparison matters** — no single algorithm wins every time; comparing multiple models with the right metrics reveals the best fit for the problem.
-- 💬 **Communicating results** — translating model outputs (coefficients, feature importances) into plain-language business insights is as important as building the model itself.
+**Data Cleaning**: Learned how to fix messy data (missing values and duplicates) before doing any analysis.
+**Finding Patterns**: Learned how to look at raw numbers and spot useful trends, like best-selling products and busy shopping months.
+**Customer Grouping**: Learned how to use basic machine learning (K-Means) to automatically group similar shoppers together.
+**Visual Storytelling**: Learned how to turn boring tables of numbers into clear charts and graphs that anyone can understand.
+**Python Tools**: Got hands-on practice using essential data tools like Pandas, Matplotlib, and Scikit-Learn.
 
 ---
 
