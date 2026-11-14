@@ -14,7 +14,6 @@
 
 This repository contains my project submissions for the **Oasis Infobyte Summer Internship Program (OIBSIP)**, under the **📈 Data Analytics** track.
 
-> 📝 *"Learning is the only thing the mind never exhausts, never fears, and never regrets." — Leonardo da Vinci*
 
 Per the internship's completion rules for Data Analytics, interns must complete **at least 3 tasks from Level 1 or Level 2 combined**. I chose to complete **all 3 tasks from Level 1**, which involved end-to-end machine learning pipelines — from data cleaning and EDA to model training, evaluation, and business interpretation.
 
