@@ -88,9 +88,13 @@ Each task folder contains its own source code, a dedicated `README.md`, and supp
 ## 🧠 Key Learnings Across All 3 Tasks
 
 **Data Cleaning**: Learned how to fix messy data (missing values and duplicates) before doing any analysis.
+
 **Finding Patterns**: Learned how to look at raw numbers and spot useful trends, like best-selling products and busy shopping months.
+
 **Customer Grouping**: Learned how to use basic machine learning (K-Means) to automatically group similar shoppers together.
+
 **Visual Storytelling**: Learned how to turn boring tables of numbers into clear charts and graphs that anyone can understand.
+
 **Python Tools**: Got hands-on practice using essential data tools like Pandas, Matplotlib, and Scikit-Learn.
 
 ---
