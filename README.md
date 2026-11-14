@@ -1,108 +1,111 @@
-🚀 OIBSIP — Oasis Infobyte Summer Internship Program
-Track: 📈 Data Analytics · Level: 1 · Tasks Completed: 1, 2 & 3
+# 🚀 OIBSIP — Oasis Infobyte Summer Internship Program
 
-Python Pandas scikit-learn Status Internship
+**Track:** 📈 Data Analytics · **Level:** 1 · **Tasks Completed:** 1, 2 & 3
 
-👋 About This Repository
-This repository contains my project submissions for the Oasis Infobyte Summer Internship Program (OIBSIP), under the 📈 Data Analytics track.
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange?logo=scikitlearn)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Internship](https://img.shields.io/badge/Oasis%20Infobyte-SIP-purple)
 
-📝 "Learning is the only thing the mind never exhausts, never fears, and never regrets." — Leonardo da Vinci
+---
 
-Per the internship's completion rules for Data Analytics, interns must complete at least 3 tasks from Level 1 or Level 2 combined. I chose to complete all 3 tasks from Level 1, which involved end-to-end machine learning pipelines — from data cleaning and EDA to model training, evaluation, and business interpretation.
+## 👋 About This Repository
 
-🗂️ Repository Structure
-Following OIBSIP's required naming convention OIBSIP/[TrackName]-[Level/Task]-[ProjectName]/, this repo is organized as:
+This repository contains my project submissions for the **Oasis Infobyte Summer Internship Program (OIBSIP)**, under the **📈 Data Analytics** track.
 
+> 📝 *"Learning is the only thing the mind never exhausts, never fears, and never regrets." — Leonardo da Vinci*
 
+Per the internship's completion rules for Data Analytics, interns must complete **at least 3 tasks from Level 1 or Level 2 combined**. I chose to complete **all 3 tasks from Level 1**, which involved end-to-end machine learning pipelines — from data cleaning and EDA to model training, evaluation, and business interpretation.
+
+---
+
+## 🗂️ Repository Structure
+
+Following OIBSIP's required naming convention `OIBSIP/[TrackName]-[Level/Task]-[ProjectName]/`, this repo is organized as:
+
+```
 OIBSIP/
-├── Oasis -  .ipynb
-│   ├── README.md
 │
+├── DataAnalytics-L1-task1-EDA on retail sales data.ipynb
+├── DataAnalytics-L1-task2-Customer segmentation.ipynb
+├── DataAnalytics-L2-task3-Cleaning data using titanic dataset.ipynb
 └── README.md   ← you are here 📍
-Each task folder contains its own source code, a dedicated README.md, and supporting screenshots/output files, as required by the program guidelines.
+```
 
-📋 Task Summaries
-1️⃣ 🏠 Predicting House Prices with Linear Regression
-Folder: DataAnalytics-L2-HousePricePrediction
+Each task folder contains its own source code, a dedicated `README.md`, and supporting screenshots/output files, as required by the program guidelines.
 
-🎯 Objective: Build and evaluate a linear regression model that predicts house prices based on features such as area, location, number of rooms, and age — covering the full pipeline from data cleaning to model interpretation.
+---
 
-🛠️ Tech Stack: Python, pandas, scikit-learn, matplotlib, seaborn, Jupyter Notebook
+## 📋 Task Summaries
 
-✅ What was done:
+### 1️⃣ 🏠 EDA on retail sales data
 
-🔍 Exploratory Data Analysis (null checks, descriptive stats, target distribution)
-🧩 Feature selection & categorical encoding (One-Hot Encoding)
-🔥 Correlation heatmap to identify top price-driving features
-✂️ 80/20 train-test split
-📈 Trained a Linear Regression model
-📊 Evaluated using MSE, RMSE, and R² score
-📉 Actual vs. Predicted scatter plot & residual plot analysis
-🧠 Coefficient analysis to interpret feature impact on price
-2️⃣ 🍷 Wine Quality Prediction
-Folder: DataAnalytics-L2-WineQualityPrediction
+**Folder:** [`DataAnalytics-L1-task1-EDA on retail sales data`](./DataAnalytics-L1-task1-EDA on retail sales data)
 
-🎯 Objective: Train and compare multiple classification models to predict wine quality scores based on physicochemical properties like acidity, density, and alcohol content.
+**🎯 Objective:** To examine raw store sales numbers and uncover hidden patterns—like which products sell best, when sales peak, and who the main buyers are—so the business can make smarter decisions.
 
-🛠️ Tech Stack: Python, pandas, numpy, scikit-learn (Random Forest, SGD, SVC), seaborn, matplotlib, Jupyter Notebook
+**🛠️ Tech Stack:** Python, Pandas, NumPy (for data handling), Matplotlib & Seaborn (for charts and graphs), Jupyter Notebook.
 
-✅ What was done:
+**✅ What was done:**
+- 🔍 Checked the dataset for errors, missing values, or duplicate records
+- 🧩 Calculated basic business metrics like total revenue, average order value, and top-selling product categories.
+- 📈Analyzed sales trends over time (e.g., monthly or seasonal spikes) and customer demographics (age and gender).
+- 📉 Created bar charts, line graphs, and heatmaps to visually present the findings.
 
-🔍 EDA on chemical features + class distribution analysis
-⚖️ Discussed class imbalance across quality scores
-🏷️ Feature engineering — binned quality scores into meaningful categories
-✂️ Stratified train/test split to preserve class ratios
-🤖 Trained 3 classifiers: Random Forest, SGD, and SVC
-📊 Evaluated each with accuracy, classification report & confusion matrix
-🌟 Feature importance chart (Random Forest)
-🏆 Compared all models side-by-side and selected the best performer
-3️⃣ 💳 Fraud Detection
-Folder: DataAnalytics-L2-FraudDetection
+---
 
-🎯 Objective: Build a machine learning pipeline to detect fraudulent transactions in a heavily imbalanced dataset (only ~0.17% of transactions are fraud), addressing class imbalance as the core challenge.
+### 2️⃣ 🍷 Customer Segmentation using E-commerce Data
 
-🛠️ Tech Stack: Python, pandas, scikit-learn, imbalanced-learn (SMOTE), matplotlib, seaborn, Jupyter Notebook
+**Folder:** [`DataAnalytics-L1-task2-Customer Segmentation`](./DataAnalytics-L1-task2-Customersegmentation)
 
-✅ What was done:
+**🎯 Objective:** To group online shoppers with similar buying habits together (e.g., frequent big spenders vs. occasional discount hunters) so the company can send targeted marketing and personalized offers to each group.
+**🛠️ Tech Stack:** Python, Pandas, Scikit-Learn (specifically the K-Means Clustering algorithm), Matplotlib & Seaborn, Jupyter Notebook.
 
-📊 Analyzed extreme class imbalance (0.173% fraud rate)
-🔍 EDA on transaction amounts & time-of-day fraud patterns
-⚠️ Explained why accuracy is a misleading metric here
-⚖️ Applied SMOTE oversampling to balance training data
-✂️ Stratified train/test split to preserve fraud ratio in both sets
-🤖 Trained Logistic Regression & Random Forest
-📈 Evaluated with Precision, Recall, F1-Score & ROC-AUC
-🎯 Discussed the Recall vs. Precision trade-off for fraud use cases
-🔍 Feature importance analysis (top features: V14, V10)
-🚀 Discussed scalability for handling 1 million transactions/hour
-🧠 Key Learnings Across All 3 Tasks
-📐 Accuracy alone is not enough — metrics like Precision, Recall, F1, and ROC-AUC give a fuller picture, especially on imbalanced data.
-⚖️ Class imbalance handling (SMOTE, stratification, class weighting) is critical for reliable fraud/quality classifiers.
-🔎 EDA first, modeling second — understanding data distributions and relationships before modeling leads to better feature choices.
-🤝 Model comparison matters — no single algorithm wins every time; comparing multiple models with the right metrics reveals the best fit for the problem.
-💬 Communicating results — translating model outputs (coefficients, feature importances) into plain-language business insights is as important as building the model itself.
-⚙️ How to Run
-# 1. Clone the repository
-git clone https://github.com/ashcodes95/OIBSIP.git
-cd OIBSIP
+**✅ What was done:**
+- 🔍 Cleaned the transaction data and removed canceled orders or missing customer IDs.
+- 📊 Created customer-level metrics—often using RFM analysis (Recency: how recently they bought, Frequency: how often they buy, Monetary: how much they spend).
+- ⚖️ Scaled the numbers so large spending amounts didn't overpower other metrics.
+- 🤖 Applied the K-Means machine learning algorithm to automatically group customers into distinct clusters and visualized these segments on scatter plots.
 
-# 2. Navigate to a task folder
-cd DataAnalytics-L2-HousePricePrediction
+---
 
-# 3. Install dependencies
-pip install pandas numpy scikit-learn matplotlib seaborn imbalanced-learn jupyter
+### 3️⃣ 💳 Cleaning data using titanic dataset
 
-# 4. Launch the notebook
-jupyter notebook
-📌 Datasets are sourced from Kaggle/UCI as per each task's guidelines and are not included in this repo due to size — see each task's individual README for the dataset link.
+**Folder:** [`DataAnalytics-L2-task3-cleaning data`](./DataAnalytics-L2-task3-cleaningdata)
 
-🏅 About Oasis Infobyte SIP
-The Oasis Infobyte Summer Internship Program is a hands-on internship where interns build real-world projects across various tech domains (Web Dev, Android, Java, Graphics Design, Data Science, Python, Data Analytics, and Cyber Security), submit them via GitHub, and demo them on LinkedIn.
+**🎯 Objective:** To take a messy, incomplete dataset of Titanic passengers and fix all its flaws so it is accurate, consistent, and ready for future analysis or machine learning models.
 
-🌐 Website: oasisinfobyte.com
-💼 LinkedIn: Oasis Infobyte
-📬 Connect With Me
+**🛠️ Tech Stack:** Python, Pandas, NumPy, Matplotlib/Seaborn (to spot outliers visually), Jupyter Notebook
+
+**✅ What was done:**
+- 📊 Handled Missing Data: Filled in missing passenger ages using the median age, filled missing boarding ports with the most common port, and dropped columns with too much missing data (like Cabin numbers).
+- 🔍 Removed Duplicates & Irrelevant Info: Deleted duplicate rows and unnecessary columns (like Passenger ID or Ticket number) that don't help predict survival.
+- 🤖 Fixed Outliers & Formats: Detected extreme values (like unusually high ticket fares) using box plots and converted text categories (like "Male" and "Female") into numbers (0 and 1) so algorithms can read them.
+
+---
+
+## 🧠 Key Learnings Across All 3 Tasks
+
+- 📐 **Accuracy alone is not enough** — metrics like Precision, Recall, F1, and ROC-AUC give a fuller picture, especially on imbalanced data.
+- ⚖️ **Class imbalance handling** (SMOTE, stratification, class weighting) is critical for reliable fraud/quality classifiers.
+- 🔎 **EDA first, modeling second** — understanding data distributions and relationships before modeling leads to better feature choices.
+- 🤝 **Model comparison matters** — no single algorithm wins every time; comparing multiple models with the right metrics reveals the best fit for the problem.
+- 💬 **Communicating results** — translating model outputs (coefficients, feature importances) into plain-language business insights is as important as building the model itself.
+
+---
+
+## 🏅 About Oasis Infobyte SIP
+
+The **Oasis Infobyte Summer Internship Program** is a hands-on internship where interns build real-world projects across various tech domains (Web Dev, Android, Java, Graphics Design, Data Science, Python, **Data Analytics**, and Cyber Security), submit them via GitHub, and demo them on LinkedIn.
+
+- 🌐 Website: [oasisinfobyte.com](http://www.oasisinfobyte.com)
+- 💼 LinkedIn: [Oasis Infobyte](https://in.linkedin.com/company/oasis-infobyte)
+
+---
+
+## 📬 Connect With Me
+
 Feel free to explore each task folder for detailed notebooks, visualizations, and write-ups. Feedback and suggestions are always welcome! 🙌
 
-Made with ❤️, Python 🐍, and a lot of pandas 🐼 during #oasisinfobyte
-
+<p align="center">Made with ❤️, Python 🐍, and a lot of pandas 🐼 during #oasisinfobyte</p>
