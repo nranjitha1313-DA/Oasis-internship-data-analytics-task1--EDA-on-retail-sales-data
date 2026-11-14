@@ -59,6 +59,7 @@ Each task folder contains its own source code, a dedicated `README.md`, and supp
 **Folder:** [`DataAnalytics-L1-task2-Customer Segmentation`](./DataAnalytics-L1-task2-Customersegmentation)
 
 **🎯 Objective:** To group online shoppers with similar buying habits together (e.g., frequent big spenders vs. occasional discount hunters) so the company can send targeted marketing and personalized offers to each group.
+
 **🛠️ Tech Stack:** Python, Pandas, Scikit-Learn (specifically the K-Means Clustering algorithm), Matplotlib & Seaborn, Jupyter Notebook.
 
 **✅ What was done:**
