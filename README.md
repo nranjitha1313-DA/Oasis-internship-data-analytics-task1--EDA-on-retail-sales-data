@@ -13,37 +13,9 @@ Per the internship's completion rules for Data Analytics, interns must complete 
 🗂️ Repository Structure
 Following OIBSIP's required naming convention OIBSIP/[TrackName]-[Level/Task]-[ProjectName]/, this repo is organized as:
 
-OIBSIP/
-│
-├── DataAnalytics-L2-HousePricePrediction/
-│   ├── house_price_prediction.ipynb
-│   ├── README.md
-│   └── screenshots/
-│
-├── DataAnalytics-L2-WineQualityPrediction/
-│   ├── wine_quality_prediction.ipynb
-│   ├── README.md
-│   └── screenshots/
-│
-├── DataAnalytics-L2-FraudDetection/
-│   ├── fraud_detection.ipynb
-│   ├── README.md
-│   └── screenshots/
-│
-└── README.md   ← you are here 📍
 
 OIBSIP/
-│
-├── DataAnalytics-L1- EDA on Retail Sales Data/
-│   ├── house_price_prediction.ipynb
-│   ├── README.md
-│
-├── DataAnalytics-L1-Customer Segmentation Analysis
-│   ├── wine_quality_prediction.ipynb
-│   ├── README.md
-│
-├── DataAnalytics-L1-FraudDetection/
-│   ├── fraud_detection.ipynb
+├── Oasis -  .ipynb
 │   ├── README.md
 │
 └── README.md   ← you are here 📍
